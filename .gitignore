@@ -1,0 +1,10 @@
+.vs/
+.editorconfig
+bin/
+obj/
+packages/
+*.lnk
+*.pdf
+
+
+

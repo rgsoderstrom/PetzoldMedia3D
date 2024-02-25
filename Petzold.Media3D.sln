@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzold.Media3D", "Petzold.Media3D\Petzold.Media3D.csproj", "{BEBED159-4DB6-4550-8342-7F3607177B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8768F5C2-68E4-4399-BB41-112601205D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Meshes", "Driver\Test_Meshes.csproj", "{A38111A8-BA25-4B7A-A994-A1075922A7CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEBED159-4DB6-4550-8342-7F3607177B71} = {BEBED159-4DB6-4550-8342-7F3607177B71}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Wires", "Test_Wires\Test_Wires.csproj", "{5B35E6CC-42DA-40FE-A6CB-0F3C11092E6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEBED159-4DB6-4550-8342-7F3607177B71} = {BEBED159-4DB6-4550-8342-7F3607177B71}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Wires2", "Test_Wires2\Test_Wires2.csproj", "{05DC723F-5508-448B-A0A8-9267D84ACC5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEBED159-4DB6-4550-8342-7F3607177B71} = {BEBED159-4DB6-4550-8342-7F3607177B71}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBED159-4DB6-4550-8342-7F3607177B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8768F5C2-68E4-4399-BB41-112601205D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8768F5C2-68E4-4399-BB41-112601205D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8768F5C2-68E4-4399-BB41-112601205D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8768F5C2-68E4-4399-BB41-112601205D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38111A8-BA25-4B7A-A994-A1075922A7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38111A8-BA25-4B7A-A994-A1075922A7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38111A8-BA25-4B7A-A994-A1075922A7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38111A8-BA25-4B7A-A994-A1075922A7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B35E6CC-42DA-40FE-A6CB-0F3C11092E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B35E6CC-42DA-40FE-A6CB-0F3C11092E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B35E6CC-42DA-40FE-A6CB-0F3C11092E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B35E6CC-42DA-40FE-A6CB-0F3C11092E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DC723F-5508-448B-A0A8-9267D84ACC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DC723F-5508-448B-A0A8-9267D84ACC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DC723F-5508-448B-A0A8-9267D84ACC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DC723F-5508-448B-A0A8-9267D84ACC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {531E7BA9-9CB0-427F-B01D-AD0478694E1A}
+	EndGlobalSection
+EndGlobal
